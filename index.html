@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item List Table</title>
+    <style>
+        body {
+    background: #111;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.table-container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #000;
+    color: #fff;
+    padding: 12px;
+    border: 1px solid #444;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+/* Multi-color rows */
+.row-blue { background: #1e3a5f; }
+.row-green { background: #1f4f3f; }
+.row-yellow { background: #5a4a1f; }
+.row-pink { background: #5a1f3a; }
+
+.row-total {
+    background: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Status classes */
+.status-yes {
+    color: #00ff6a;
+    font-size: 20px;
+    text-align: center;
+}
+
+.status-no {
+    color: #ff4c4c;
+    font-size: 20px;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="table-container">
+    <h2>Item Requirement List</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Estimated Price (₹)</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="row-blue">
+                <td>Basmati Chawal</td>
+                <td>10 kg</td>
+                <td>800 - 1000</td>
+                <td class="status-yes">✔</td>
+            </tr>
+
+            <tr class="row-green">
+                <td>Cheeni (Sugar)</td>
+                <td>6.5 kg</td>
+                <td>260 - 300</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-yellow">
+                <td>Desi Ghee</td>
+                <td>1 kg</td>
+                <td>550 - 600</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-pink">
+                <td>Butter (Makhan)</td>
+                <td>500 g</td>
+                <td>200 - 250</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-blue">
+                <td>Refined Oil</td>
+                <td>2 kg</td>
+                <td>240 - 260</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-green">
+                <td>Khoya / Mawa</td>
+                <td>1 kg</td>
+                <td>350 - 400</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-yellow">
+                <td>Kaju (Cashew)</td>
+                <td>500 g</td>
+                <td>450 - 500</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-pink">
+                <td>Badam (Almond)</td>
+                <td>500 g</td>
+                <td>450 - 500</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-blue">
+                <td>Kismish (Raisins)</td>
+                <td>500 g</td>
+                <td>150 - 200</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-green">
+                <td>Nariyal (Coconut)</td>
+                <td>1 kg (grated)</td>
+                <td>100 - 120</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-yellow">
+                <td>Morabba</td>
+                <td>1 kg</td>
+                <td>200 - 250</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-pink">
+                <td>Gulab Jamun</td>
+                <td>500 g (Optional)</td>
+                <td>150</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-blue">
+                <td>Kewra Essence (Ittr)</td>
+                <td>1 small bottle</td>
+                <td>50 - 60</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <tr class="row-green">
+                <td>Rose Water</td>
+                <td>100 ml</td>
+                <td>30 - 40</td>
+                <td class="status-no">✖</td>
+            </tr>
+            <tr class="row-yellow">
+                <td>therma col kapti</td>
+                <td>500 pcs</td>
+                <td>200 - 250</td>
+                <td class="status-no">✖</td>
+            </tr>
+
+            <!-- <tr class="row-total">
+                <td colspan="4">Sub-Total : All Items</td>
+            </tr> -->
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
